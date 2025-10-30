@@ -1,1 +1,1 @@
-import NonProfitPage from "./cardTemplate.js";
+import cardTemplate from "./cardTemplate.js";
