@@ -34,6 +34,7 @@ export default class cardTemplate extends HTMLElement {
     return parent;
   }
   #generateCards(arr) {
+    console.log(arr);
     return arr.map((data) => this.#createCard(data));
   }
 
