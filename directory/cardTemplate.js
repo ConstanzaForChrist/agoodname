@@ -49,16 +49,13 @@ export default class cardTemplate extends HTMLElement {
     // Prevent page from loading
     // render corresponding data
     // Query the template rather than the whole document
-    const cards = this.#generateCards(data[`${window.location.pathname}`]);
+    const currentData = this.businesses[`${window.location.pathname}`];
+    console.log(window.location.pathname);
+
+    console.log(currentData);
+
+    const cards = this.#generateCards(currentData);
     cardContainer.append(...cards);
-    window.addEventListener('click', (e) => {
-      const currentItem = e.target;
-      const currentData = currentItem.name;
-      if (currentItem.className === 'directory-link') {
-        const cards = this.#generateCards(data[currentData]);
-        cardContainer.replaceChildren(...cards);
-      }
-    });
   }
 }
 
