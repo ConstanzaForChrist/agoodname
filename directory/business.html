@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Good Name</title>
+    <link rel="stylesheet" href="../style.css" />
+    <script
+      src="https://kit.fontawesome.com/33fc92d562.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <!-- socials -->
+      <section class="social">
+        <ul class="social-list flex">
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-facebook social-icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-twitter social-icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-google social-icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-instagram social-icon"></i>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#">
+              <i class="fa-brands fa-linkedin social-icon"></i>
+            </a>
+          </li>
+        </ul>
+      </section>
+      <hr />
+      <!-- Nav -->
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="../index.html" class="nav-link"> Constaza </a>
+          </li>
+          <li class="nav-item">
+            <a href="./businessDirectory.html" class="nav-link">
+              Business Directory
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="https://constanzaforchrist.org/" class="nav-link">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <card-template></card-template>
+
+    <template id="card-template">
+      <ul>
+        <li>
+            <a class="directory-link" href="./business.html" name="businesses">Businesses</a>
+            <a class="directory-link" href="./nonprofit.html" name="non-profit">Non-Profit</a>
+            <a class="directory-link" href="./church.html" name="churches">Church</a>
+        </li>
+      </ul>
+      <section>
+        <h1 class="center">Business</h1>
+        <article id="card-container"></article>
+      </section>
+    </template>
+
+    <script src="./test.js" type="module"></script>
+  </body>
+</html>
