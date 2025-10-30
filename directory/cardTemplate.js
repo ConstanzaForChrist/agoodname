@@ -4,9 +4,9 @@ console.log(data);
 
 import { createElement } from '../utils/utils.js';
 export default class cardTemplate extends HTMLElement {
+  businesses = data;
   constructor() {
     super();
-    this.businesses = data;
   }
   // Private methods
   #createCard(obj) {
@@ -35,6 +35,8 @@ export default class cardTemplate extends HTMLElement {
   }
   #generateCards(arr) {
     console.log(arr);
+    console.log(this.businesses);
+
     return arr.map((data) => this.#createCard(data));
   }
 
@@ -53,7 +55,7 @@ export default class cardTemplate extends HTMLElement {
       const currentItem = e.target;
       const currentData = currentItem.name;
       if (currentItem.className === 'directory-link') {
-        const cards = this.#generateCards(this.businesses[currentData]);
+        const cards = this.#generateCards(data[currentData]);
         cardContainer.replaceChildren(...cards);
       }
     });
