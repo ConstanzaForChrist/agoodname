@@ -1,4 +1,6 @@
-const res = await fetch('../business.json');
+const res = await fetch(
+  './business.json'
+);
 const data = await res.json();
 console.log(data);
 
