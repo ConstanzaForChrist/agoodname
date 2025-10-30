@@ -1,5 +1,5 @@
 {
-  "/directory/business.html": [
+  "/agoodname/directory/business.html": [
     {
       "name": "Deloach Body Works",
       "address": "410 S.Augustine Road Valdosta, Georgia 31601",
@@ -151,7 +151,7 @@
       "image": ""
     }
   ],
-  "/directory/church.html": [
+  "/agoodname/directory/church.html": [
     {
       "name": "Lighthouse Christian Fellowship Church",
       "address": "5802 Tillman St, Lake Park, GA 31636",
@@ -174,7 +174,7 @@
       "image": ""
     }
   ],
-  "/directory/nonprofit.html": [
+  "/agoodname/directory/nonprofit.html": [
     {
       "name": "Christian Business Men’s Connections (CBMC)",
       "address": "South Georgia / North Florida",
