@@ -1,6 +1,4 @@
-const res = await fetch(
-  './business.json'
-);
+const res = await fetch('./business.json');
 const data = await res.json();
 console.log(data);
 
@@ -49,9 +47,7 @@ export default class cardTemplate extends HTMLElement {
     // Prevent page from loading
     // render corresponding data
     // Query the template rather than the whole document
-    const cards = this.#generateCards(
-      this.businesses[`${window.location.pathname}`]
-    );
+    const cards = this.#generateCards(data[`${window.location.pathname}`]);
     cardContainer.append(...cards);
     window.addEventListener('click', (e) => {
       const currentItem = e.target;
