@@ -16,6 +16,7 @@ body {
   font-size: 14px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
 }
 
 img {
@@ -88,7 +89,7 @@ footer span {
 }
 
 /* was in desktop view */
-.column>div {
+.column > div {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,6 +131,21 @@ ul {
   text-align: center;
 }
 
+.business-categories .card {
+  width: 300px;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  text-shadow: 0 0 15px rgba(255, 255, 255, 0.5),
+    0 0 10px rgba(255, 255, 255, 0.5);
+    transition: scale 0.5s;
+}
+
+.card:hover {
+  cursor: pointer;
+  scale: 1.05;
+}
 
 /* Desktop */
 @media (min-width: 900px) {
@@ -197,6 +213,10 @@ ul {
 
   .quick-item {
     text-align: left;
+  }
+  #category-container, #business-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 

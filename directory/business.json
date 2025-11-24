@@ -1,156 +1,138 @@
 {
-  "/agoodname/directory/business.html": [
-    {
-      "name": "Deloach Body Works",
-      "address": "410 S.Augustine Road Valdosta, Georgia 31601",
-      "number": "(229) 241-0804",
-      "website": "https://www.facebook.com/profile.php?id=416373728458462&paipv=0&eav=AfZWdw-69nUIhdIlOtRQKpec_xWAB6hkJph0i9zPrz37LGzUsu-aq_4Do2H3BQ-JJ8M&_rdr",
-      "image": ""
-    },
-    {
-      "name": "From Good to Great",
-      "address": "",
-      "number": "(229) 292-4366",
-      "website": "caseycolecorbin.com",
-      "image": "../assets/from-good-to-great.webp"
-    },
-    {
-      "name": "Fouraker Electronics, Inc",
-      "address": "204 E. Gordon St. Valdosta, Georgia 31601",
-      "number": "(229) 242-5513",
-      "website": "https://www.facebook.com/p/Fouraker-Electronics-Inc-100064771928280",
-      "image": "../assets/Fouraker-Electronics.webp"
-    },
-    {
-      "name": "First Federal Savings of Valdosta",
-      "address": "411 N Patterson St P.O. Box 888 Valdosta, GA 31603",
-      "number": "(229) 244-0164",
-      "website": "https://www.1stfederalvaldosta.com",
-      "image": "../assets/firstfederalsavings.webp"
-    },
-    {
-      "name": "The First Bank",
-      "address": "3500 N Valdosta Rd, Valdosta, GA 31602",
-      "number": "(229) 244-4444",
-      "website": "https://www.thefirstbank.com/",
-      "image": "../assets/logo-thefirst.webp"
-    },
-    {
-      "name": "Kerrigan Capital and Risk Management",
-      "address": "3543 N. Crossing Circle Valdosta, Georgia 31602",
-      "number": "(229) 588-8448",
-      "website": "https://www.kerrigangroup.com",
-      "image": "../assets/Kerrigan-Investment.webp"
-    },
-    {
-      "name": "Bennett’s Fire Protection and Systems",
-      "address": "Lake Park, Georgia",
-      "number": "(229) 292-6977",
-      "website": "https://bennettsfireprotection.com/",
-      "image": ""
-  
-    },
-    {
-      "name": "McLane Funeral and Cremation Services",
-      "address": "2215 N. Patterson St. Valdosta, Georgia 31602",
-      "number": "(229) 242-5544",
-      "website": "https://www.mclanefuneralservices.com",
-      "image": "../assets/McLane-Funeral.webp"
-    },
-    {
-      "name": "Ben Blanton - Blanton & Griffin Insurance Agency",
-      "address": "2314 N Patterson St, Valdosta GA 31602 ",
-      "number": "(229) 247-6500",
-      "website": "www.blantongriffin.com",
-      "image": "../assets/blanton-and-griffin.webp"
-    },
-    {
-      "name": "Paul Cribbs - State Farm",
-      "address": "3565 N. Crossing Circle Valdosta, Georgia 31602",
-      "number": "(229) 247-7127",
-      "website": "https://paulcribbs.net",
-      "image": "../assets/Paul-Cribbs.webp"
-    },
-    {
-      "name": "Travis Pate - State Farm",
-      "address": "2310 N. Patterson Building G Valdosta, Georgia 31602",
-      "number": "(229) 242-6789",
-      "website": "https://travispate.com/",
-      "image": "../assets/Travis-Pate.webp"
-    },
-    {
-      "name": "Adams Exterminators",
-      "address": "South Georgia",
-      "number": "(229) 382-2411",
-      "website": "https://www.adams-exterminators.com",
-      "image": "../assets/Adams-Exterminators.webp"
-    },
-    {
-      "name": "Mudanza",
-      "address": "",
-      "number": "(229) 300-7150",
-      "website": "www.mudanzamoving.com",
-      "image": ""
-    },
-    {
-      "name": "John Holt, PC",
-      "address": "203 E Gordon St, Valdosta, GA 31601",
-      "number": " (229) 244-8660",
-      "website": "https://www.jdholtlaw.com/",
-      "image": ""
-    },
-    {
-      "name": "Glass Pro by American Glass",
-      "address": "215 W Savannah Ave, Valdosta, GA 31601",
-      "number": "(229) 244-8484",
-      "website": "https://glassprosales.com",
-      "image": ""
-    },
-    {
-      "name": "Lake Hardware Feed and Bait",
-      "address": "317 Lakes Blvd, Lake Park, GA 31636",
-      "number": "(229) 559-3481",
-      "website": "https://www.facebook.com/lakehardwareandfeed/",
-      "image": ""
-    },
-    {
-      "name": "Williams Hotel Group",
-      "address": "1221 W 4th St, Ste 11, Adel, GA",
-      "number": "(229) 896-4511",
-      "website": "https://www.williamshotelgroup.com",
-      "image": ""
-    },
-    {
-      "name": "Bed'r Funiture & Mattress - Valdosta",
-      "address": "1604 Norman Drive, Valdosta, GA 31601",
-      "number": "(229) 671-9266",
-      "website": "https://www.bedrfurniture.com",
-      "image": "",
-      "email": "jay@bedrfurniture.com"
-    },
-    {
-      "name": "Bed'r Funiture & Mattress - Waycross",
-      "address": "513 Tebeau Street, Waycross, GA 31501",
-      "number": "(912) 287-0273",
-      "website": "https://www.bedrfurniture.com",
-      "image": "",
-      "email": "jay@bedrfurniture.com"
-    },
-    {
-      "name": "Maranatha Medical Plaza",
-      "address": "3334 Greystone Wy, Valdosta, GA 31605",
-      "number": " (229) 247-1667",
-      "website": "https://www.maranathamd.com",
-      "image": ""
-    },
-    {
-      "name": "1st America Health Group",
-      "address": "428 Northside Dr, Valdosta, GA 31602",
-      "number": "(229) 242-3433",
-      "website": "https://www.1stamericahme.com",
-      "image": ""
+  "/directory/business.html": {
+    "categories": {
+      "automobile": {
+        "img": "../assets/categories/Automobile.webp",
+        "businesses": [
+          {
+            "name": "Deloach Body Works",
+            "address": "410 S.Augustine Road Valdosta, Georgia 31601",
+            "number": "(229) 241-0804",
+            "website": "https://www.facebook.com/profile.php?id=416373728458462&paipv=0&eav=AfZWdw-69nUIhdIlOtRQKpec_xWAB6hkJph0i9zPrz37LGzUsu-aq_4Do2H3BQ-JJ8M&_rdr",
+            "image": ""
+          }
+        ]
+      },
+      "coaching": {
+        "img": "../assets/categories/Coaching.webp",
+        "businesses": [
+          {
+            "name": "From Good to Great",
+            "address": "",
+            "number": "(229) 292-4366",
+            "website": "https://www.caseycolecorbin.com/",
+            "image": "../assets/from-good-to-great.webp"
+          }
+        ]
+      },
+      "electronics": {
+        "img": "../assets/categories/Electronics.webp",
+        "businesses": [
+          {
+            "name": "Fouraker Electronics, Inc",
+            "address": "204 E. Gordon St. Valdosta, Georgia 31601",
+            "number": "(229) 242-5513",
+            "website": "https://www.facebook.com/p/Fouraker-Electronics-Inc-100064771928280",
+            "image": "../assets/Fouraker-Electronics.webp"
+          }
+        ]
+      },
+      "finance": {
+        "img": "../assets/categories/Finances.webp",
+        "businesses": [
+          {
+            "name": "First Federal Savings of Valdosta",
+            "address": "411 N Patterson St P.O. Box 888 Valdosta, GA 31603",
+            "number": "(229) 244-0164",
+            "website": "https://www.1stfederalvaldosta.com",
+            "image": "../assets/firstfederalsavings.webp"
+          },
+          {
+            "name": "The First Bank",
+            "address": "3500 N Valdosta Rd, Valdosta, GA 31602",
+            "number": "(229) 244-4444",
+            "website": "https://www.thefirstbank.com/",
+            "image": "../assets/logo-thefirst.webp"
+          },
+          {
+            "name": "Kerrigan Capital and Risk Management",
+            "address": "3543 N. Crossing Circle Valdosta, Georgia 31602",
+            "number": "(229) 588-8448",
+            "website": "https://www.kerrigangroup.com",
+            "image": "../assets/Kerrigan-Investment.webp"
+          }
+        ]
+      },
+      "fire protection": {
+        "img": "../assets/categories/Fire-Protection.webp",
+        "businesses": [
+          {
+            "name": "Bennett’s Fire Protection and Systems",
+            "address": "Lake Park, Georgia",
+            "number": "(229) 292-6977",
+            "website": "https://bennettsfireprotection.com/",
+            "image": ""
+          }
+        ],
+        "funeral": {
+          "img": "assets/categories/Funeral.webp",
+          "businesses": [
+            {
+              "name": "McLane Funeral and Cremation Services",
+              "address": "2215 N. Patterson St. Valdosta, Georgia 31602",
+              "number": "(229) 242-5544",
+              "website": "https://www.mclanefuneralservices.com",
+              "image": "../assets/McLane-Funeral.webp"
+            }
+          ],
+          "insurance": [
+            {
+              "name": "Ben Blanton - Blanton & Griffin Insurance Agency",
+              "address": "2314 N Patterson St, Valdosta GA 31602 ",
+              "number": "(229) 247-6500",
+              "website": "www.blantongriffin.com",
+              "image": "../assets/blanton-and-griffin.webp"
+            },
+            {
+              "name": "Paul Cribbs - State Farm",
+              "address": "3565 N. Crossing Circle Valdosta, Georgia 31602",
+              "number": "(229) 247-7127",
+              "website": "https://paulcribbs.net",
+              "image": "../assets/Paul-Cribbs.webp"
+            },
+            {
+              "name": "Travis Pate - State Farm",
+              "address": "2310 N. Patterson Building G Valdosta, Georgia 31602",
+              "number": "(229) 242-6789",
+              "website": "https://travispate.com/",
+              "image": "../assets/Travis-Pate.webp"
+            }
+          ]
+        },
+        "pest control": {
+          "img": "assets/categories/Pest-Control.webp",
+          "businesses": [
+            {
+              "name": "Adams Exterminators",
+              "address": "South Georgia",
+              "number": "(229) 382-2411",
+              "website": "https://www.adams-exterminators.com",
+              "image": "../assets/Adams-Exterminators.webp"
+            }
+          ]
+        }
+      },
+      "funeral": {
+        "img": "../assets/categories/Funeral.webp"
+      },
+      "insurance": {
+        "img": "../assets/categories/Insurance.webp"
+      },
+      "pest control": {
+        "img": "../assets/categories/Pest-Control.webp"
+      }
     }
-  ],
+  },
   "/agoodname/directory/church.html": [
     {
       "name": "Lighthouse Christian Fellowship Church",
@@ -178,7 +160,7 @@
     {
       "name": "Christian Business Men’s Connections (CBMC)",
       "address": "South Georgia / North Florida",
-      "number":"",
+      "number": "",
       "website": "",
       "image": ""
     },
