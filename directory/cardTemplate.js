@@ -54,7 +54,7 @@ export default class cardTemplate extends HTMLElement {
     const urlLocation = window.location.pathname;
     const currentData = this.businesses[`${window.location.pathname}`];
     
-    if (urlLocation === '/directory/business.html') {
+    if (urlLocation === 'agoodname/directory/business.html') {
       let currentCategory = '';
       categoryContainer.classList.add('business-categories');
       console.log('Making Cards');
