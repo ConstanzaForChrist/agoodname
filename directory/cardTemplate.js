@@ -1,8 +1,5 @@
 const res = await fetch('./business.json');
 const data = await res.json();
-console.log(data);
-console.log(location.pathname);
-
 
 import { createElement } from '../utils/utils.js';
 export default class cardTemplate extends HTMLElement {
@@ -23,7 +20,6 @@ export default class cardTemplate extends HTMLElement {
     address.textContent = obj.address;
     const website = createElement('a');
     website.href = obj.website;
-    // website.textContent = obj.name
     title.append(website);
     parent.append(title, address);
     if (obj.image) {
@@ -36,8 +32,6 @@ export default class cardTemplate extends HTMLElement {
     return parent;
   }
   #generateCards(arr) {
-    console.log(arr);
-    console.log(this.businesses);
 
     return arr.map((data) => this.#createCard(data));
   }
@@ -54,16 +48,13 @@ export default class cardTemplate extends HTMLElement {
     // render corresponding data
     // Query the template rather than the whole document
     const urlLocation = window.location.pathname;
-    console.log(urlLocation);
-    
+
     const currentData = this.businesses[`${window.location.pathname}`];
-    
+
     if (urlLocation === '/agoodname/directory/business.html') {
-      console.log('In Business');
-      
+
       let currentCategory = '';
       categoryContainer.classList.add('business-categories');
-      console.log('Making Cards');
       const categories = Object.entries(currentData.categories);
       const titles = categories.map((category) => {
         const div = document.createElement('div');
@@ -79,37 +70,22 @@ export default class cardTemplate extends HTMLElement {
           const currentData =
             data[window.location.pathname].categories[currentCategory]
               .businesses;
+
           categoryContainer.style.display = 'none';
           const clickedCategory = currentData.map((business) => {
-            const newCard = this.#createCard(business)
-            // const newCard = document.createElement('div');
-            // newCard.className = 'card';
-            // const title = document.createElement('h2');
-            // const address = document.createElement('p');
-            // const number = document.createElement('p');
-            // const website = document.createElement('a');
-            // const img = document.createElement('img');
-            // title.textContent = business.name;
-            // address.textContent = business.address;
-            // number.textContent = business.number;
-            // website.textContent = business.name;
-            // website.href = business.website
-            // img.src = business.image;
-            // newCard.append(title, img, address, number, website);
+            const newCard = this.#createCard(business);
+ 
             return newCard;
           });
-          console.log(clickedCategory);
           businessContainer.append(...clickedCategory);
         });
         return div;
       });
       categoryContainer.append(...titles);
-      console.log(categories);
       return;
     }
 
     const cards = this.#generateCards(currentData);
-    console.log(currentData);
     cardContainer.append(...cards);
   }
 }
