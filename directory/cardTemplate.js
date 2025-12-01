@@ -58,7 +58,7 @@ export default class cardTemplate extends HTMLElement {
     
     const currentData = this.businesses[`${window.location.pathname}`];
     
-    if (urlLocation === 'agoodname/directory/business.html') {
+    if (urlLocation === '/agoodname/directory/business.html') {
       console.log('In Business');
       
       let currentCategory = '';
