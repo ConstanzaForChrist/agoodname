@@ -1,6 +1,8 @@
 const res = await fetch('./business.json');
 const data = await res.json();
 console.log(data);
+console.log(location.pathname);
+
 
 import { createElement } from '../utils/utils.js';
 export default class cardTemplate extends HTMLElement {
