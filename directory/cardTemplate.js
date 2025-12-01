@@ -52,6 +52,8 @@ export default class cardTemplate extends HTMLElement {
     // render corresponding data
     // Query the template rather than the whole document
     const urlLocation = window.location.pathname;
+    console.log(urlLocation);
+    
     const currentData = this.businesses[`${window.location.pathname}`];
     
     if (urlLocation === 'agoodname/directory/business.html') {
