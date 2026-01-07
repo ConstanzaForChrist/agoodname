@@ -52,7 +52,7 @@ export default class cardTemplate extends HTMLElement {
     const currentData = this.businesses[`${window.location.pathname}`];
 
     if (urlLocation === '/agoodname/directory/business.html') {
-
+      const cardTitle = document.querySelector('#card-title')
       let currentCategory = '';
       categoryContainer.classList.add('business-categories');
       const categories = Object.entries(currentData.categories);
@@ -67,6 +67,7 @@ export default class cardTemplate extends HTMLElement {
         div.append(title);
         div.addEventListener('click', (e) => {
           currentCategory = e.target.textContent;
+          cardTitle = e.target.textContent
           const currentData =
             data[window.location.pathname].categories[currentCategory]
               .businesses;
@@ -89,5 +90,4 @@ export default class cardTemplate extends HTMLElement {
     cardContainer.append(...cards);
   }
 }
-
 customElements.define('card-template', cardTemplate);
