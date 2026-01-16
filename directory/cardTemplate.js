@@ -67,7 +67,7 @@ export default class cardTemplate extends HTMLElement {
         div.append(title);
         div.addEventListener('click', (e) => {
           currentCategory = e.target.textContent;
-          cardTitle = e.target.textContent
+          cardTitle.textContent = e.target.textContent
           const currentData =
             data[window.location.pathname].categories[currentCategory]
               .businesses;
