@@ -16,18 +16,25 @@ export default class cardTemplate extends HTMLElement {
     title.className = 'name';
     title.textContent = obj.name;
     const address = createElement('p');
-    address.className = 'addresss';
+    address.className = 'address';    
     address.textContent = obj.address;
     const website = createElement('a');
+    const websiteLink = createElement('a');
     website.href = obj.website;
+    websiteLink.textContent = `Click here to go to ${obj.name} website`
+    websiteLink.href = obj.website
     title.append(website);
-    parent.append(title, address);
+    parent.append(title, websiteLink, address, website);
     if (obj.image) {
+      console.log("image");
+      
       image = createElement('img');
       image.alt = obj.name;
       image.src = obj.image;
       website.append(image);
       parent.append(website);
+    }else {
+      
     }
     return parent;
   }
@@ -75,7 +82,8 @@ export default class cardTemplate extends HTMLElement {
           categoryContainer.style.display = 'none';
           const clickedCategory = currentData.map((business) => {
             const newCard = this.#createCard(business);
- 
+            console.log(newCard);
+            
             return newCard;
           });
           businessContainer.append(...clickedCategory);
