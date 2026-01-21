@@ -76,7 +76,7 @@
         ]
       },
       "funeral": {
-        "img": "assets/categories/Funeral.webp",
+        "img": "../assets/categories/Funeral.webp",
         "businesses": [
           {
             "name": "McLane Funeral and Cremation Services",
@@ -87,34 +87,34 @@
           }
         ]
       },
-        "insurance": {
-          "img": "assets/categories/Insurance.webp",
-          "businesses": [
-            {
-              "name": "Ben Blanton - Blanton & Griffin Insurance Agency",
-              "address": "2314 N Patterson St, Valdosta GA 31602 ",
-              "number": "(229) 247-6500",
-              "website": "www.blantongriffin.com",
-              "image": "../assets/blanton-and-griffin.webp"
-            },
-            {
-              "name": "Paul Cribbs - State Farm",
-              "address": "3565 N. Crossing Circle Valdosta, Georgia 31602",
-              "number": "(229) 247-7127",
-              "website": "https://paulcribbs.net",
-              "image": "../assets/Paul-Cribbs.webp"
-            },
-            {
-              "name": "Travis Pate - State Farm",
-              "address": "2310 N. Patterson Building G Valdosta, Georgia 31602",
-              "number": "(229) 242-6789",
-              "website": "https://travispate.com/",
-              "image": "../assets/Travis-Pate.webp"
-            }
-          ]
-        },
+      "insurance": {
+        "img": "../assets/categories/Insurance.webp",
+        "businesses": [
+          {
+            "name": "Ben Blanton - Blanton & Griffin Insurance Agency",
+            "address": "2314 N Patterson St, Valdosta GA 31602 ",
+            "number": "(229) 247-6500",
+            "website": "www.blantongriffin.com",
+            "image": "../assets/blanton-and-griffin.webp"
+          },
+          {
+            "name": "Paul Cribbs - State Farm",
+            "address": "3565 N. Crossing Circle Valdosta, Georgia 31602",
+            "number": "(229) 247-7127",
+            "website": "https://paulcribbs.net",
+            "image": "../assets/Paul-Cribbs.webp"
+          },
+          {
+            "name": "Travis Pate - State Farm",
+            "address": "2310 N. Patterson Building G Valdosta, Georgia 31602",
+            "number": "(229) 242-6789",
+            "website": "https://travispate.com/",
+            "image": "../assets/Travis-Pate.webp"
+          }
+        ]
+      },
       "pest control": {
-        "img": "assets/categories/Pest-Control.webp",
+        "img": "../assets/categories/Pest-Control.webp",
         "businesses": [
           {
             "name": "Adams Exterminators",
