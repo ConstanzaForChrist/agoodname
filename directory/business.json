@@ -73,19 +73,23 @@
             "website": "https://bennettsfireprotection.com/",
             "image": ""
           }
-        ],
-        "funeral": {
-          "img": "assets/categories/Funeral.webp",
+        ]
+      },
+      "funeral": {
+        "img": "assets/categories/Funeral.webp",
+        "businesses": [
+          {
+            "name": "McLane Funeral and Cremation Services",
+            "address": "2215 N. Patterson St. Valdosta, Georgia 31602",
+            "number": "(229) 242-5544",
+            "website": "https://www.mclanefuneralservices.com",
+            "image": "../assets/McLane-Funeral.webp"
+          }
+        ]
+      },
+        "insurance": {
+          "img": "assets/categories/Insurance.webp",
           "businesses": [
-            {
-              "name": "McLane Funeral and Cremation Services",
-              "address": "2215 N. Patterson St. Valdosta, Georgia 31602",
-              "number": "(229) 242-5544",
-              "website": "https://www.mclanefuneralservices.com",
-              "image": "../assets/McLane-Funeral.webp"
-            }
-          ],
-          "insurance": [
             {
               "name": "Ben Blanton - Blanton & Griffin Insurance Agency",
               "address": "2314 N Patterson St, Valdosta GA 31602 ",
@@ -109,27 +113,17 @@
             }
           ]
         },
-        "pest control": {
-          "img": "assets/categories/Pest-Control.webp",
-          "businesses": [
-            {
-              "name": "Adams Exterminators",
-              "address": "South Georgia",
-              "number": "(229) 382-2411",
-              "website": "https://www.adams-exterminators.com",
-              "image": "../assets/Adams-Exterminators.webp"
-            }
-          ]
-        }
-      },
-      "funeral": {
-        "img": "../assets/categories/Funeral.webp"
-      },
-      "insurance": {
-        "img": "../assets/categories/Insurance.webp"
-      },
       "pest control": {
-        "img": "../assets/categories/Pest-Control.webp"
+        "img": "assets/categories/Pest-Control.webp",
+        "businesses": [
+          {
+            "name": "Adams Exterminators",
+            "address": "South Georgia",
+            "number": "(229) 382-2411",
+            "website": "https://www.adams-exterminators.com",
+            "image": "../assets/Adams-Exterminators.webp"
+          }
+        ]
       }
     }
   },
