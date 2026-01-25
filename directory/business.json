@@ -1,7 +1,7 @@
 {
   "/agoodname/directory/business.html": {
     "categories": {
-      "automobile": {
+      "Automobile": {
         "img": "../assets/categories/Automobile.webp",
         "businesses": [
           {
@@ -13,7 +13,7 @@
           }
         ]
       },
-      "coaching": {
+      "Coaching": {
         "img": "../assets/categories/Coaching.webp",
         "businesses": [
           {
@@ -25,7 +25,7 @@
           }
         ]
       },
-      "electronics": {
+      "Electronics": {
         "img": "../assets/categories/Electronics.webp",
         "businesses": [
           {
@@ -37,7 +37,7 @@
           }
         ]
       },
-      "finance": {
+      "Finance": {
         "img": "../assets/categories/Finances.webp",
         "businesses": [
           {
@@ -63,7 +63,7 @@
           }
         ]
       },
-      "fire protection": {
+      "Fire Protection": {
         "img": "../assets/categories/Fire-Protection.webp",
         "businesses": [
           {
@@ -75,7 +75,7 @@
           }
         ]
       },
-      "funeral": {
+      "Funeral": {
         "img": "../assets/categories/Funeral.webp",
         "businesses": [
           {
@@ -87,7 +87,7 @@
           }
         ]
       },
-      "insurance": {
+      "Insurance": {
         "img": "../assets/categories/Insurance.webp",
         "businesses": [
           {
@@ -113,7 +113,7 @@
           }
         ]
       },
-      "pest control": {
+      "Pest Control": {
         "img": "../assets/categories/Pest-Control.webp",
         "businesses": [
           {
@@ -122,6 +122,85 @@
             "number": "(229) 382-2411",
             "website": "https://www.adams-exterminators.com",
             "image": "../assets/Adams-Exterminators.webp"
+          }
+        ]
+      },
+      "Movers": {
+        "img": "../assets/categories/movers.webp",
+        "businesses": [
+          {
+            "name": "Mudanza Moving",
+            "address": "",
+            "number": "229-300-7150",
+            "website": "mudanzaga@gmail.com | www.mudanzamoving.com",
+            "image": "../assets/Mudanza.webp"
+          }
+        ]
+      },
+      "Attorney": {
+        "img": "../assets/categories/attorney.webp",
+        "businesses": [
+          {
+            "name": "John Holt, PC",
+            "address": "203 E Gordon St, Valdosta, GA 31601",
+            "number": "(229) 244-8660",
+            "website": "john@jdholtlaw.com",
+            "image": "../assets/John-Holt.webp"
+          }
+        ]
+      },
+      "Glass": {
+        "img": "../assets/categories/Glass.webp",
+        "businesses": [
+          {
+            "name": "Glass Pro by American Glass (Spencer Dawkins)",
+            "address": "215 W Savannah Ave, Valdosta, GA 31601",
+            "number": "(229) 244-8484",
+            "website": "https://glassprosales.com",
+            "image": "../assets/Glass-Pro.webp"
+          }
+        ]
+      },
+      "Hospitality": {
+        "img": "../assets/categories/Hospitality.webp",
+        "businesses": [
+          {
+            "name": "Williams Hotel Group",
+            "address": "1221 W 4th St, Ste 11, Adel, GA",
+            "number": "(229) 896-4511",
+            "website": "https://www.williamshotelgroup.com",
+            "image": "../assets/Williams.webp"
+          }
+        ]
+      },
+      "Mattress and Furniture": {
+        "img": "../assets/categories/Mattress.webp",
+        "businesses": [
+          {
+            "name": "Bedr Furniture (Jay Lewis)",
+            "address": "",
+            "number": "",
+            "website": "jay@bedrfurniture.com | https://www.bedrfurniture.com",
+            "image": "../assets/Bed.webp"
+          }
+        ]
+      },
+      "Medical": {
+        "img": "../assets/categories/Medical.webp",
+        "businesses": [
+          {
+            "name": "Maranatha Medical Plaza",
+            "address": "3334 Greystone Wy, Valdosta, GA 31605",
+            "number": "(229) 247-1667",
+            "website": "https://www.maranathamd.com",
+            "image": "../assets/Maranatha-Clinic.webp"
+          },
+          {
+            "name": "1st America HME",
+            "address": "428 Northside Dr, Valdosta, GA 31602",
+            "number": "(229) 242-3433",
+            "website": "https://www.1stamericahme.com",
+            "image": "../assets/1st-America.webp"
           }
         ]
       }
