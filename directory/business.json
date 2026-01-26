@@ -206,7 +206,7 @@
       }
     }
   },
-  "/agoodname/directory/church.html": [
+  "/directory/church.html": [
     {
       "name": "Lighthouse Christian Fellowship Church",
       "address": "5802 Tillman St, Lake Park, GA 31636",
@@ -229,7 +229,7 @@
       "image": ""
     }
   ],
-  "/agoodname/directory/nonprofit.html": [
+  "/directory/nonprofit.html": [
     {
       "name": "Christian Business Men’s Connections (CBMC)",
       "address": "South Georgia / North Florida",
