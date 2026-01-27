@@ -98,7 +98,7 @@ footer span {
 .column > div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   margin: 0 auto;
   width: clamp(240px, 300px, 30%);
 }
@@ -151,6 +151,10 @@ ul {
 .card:hover {
   cursor: pointer;
   scale: 1.05;
+}
+
+.church-supporters-img {
+  border-radius: 50px;
 }
 
 /* Desktop */
@@ -249,5 +253,9 @@ ul {
   .social-icon,
   footer a {
     color: lightblue;
+  }
+
+  p {
+    text-align: center;
   }
 }
