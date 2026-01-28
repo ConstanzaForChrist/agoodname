@@ -64,14 +64,16 @@ export default class cardTemplate extends HTMLElement {
       categoryContainer.classList.add('business-categories');
       const categories = Object.entries(currentData.categories);
       const titles = categories.map((category) => {
+        const cardParent = document.createElement('div')
         const div = document.createElement('div');
         const cardImg = document.createElement('img');
         cardImg.src = category[1].img;
         div.className = 'card';
         const title = document.createElement('h3');
+        title.className = 'business-category'
         title.textContent = category[0];
         div.style.backgroundImage = `url('${category[1].img}')`;
-        div.append(title);
+        
         div.addEventListener('click', (e) => {
           currentCategory = e.target.textContent;
           cardTitle.textContent = e.target.textContent
@@ -82,13 +84,13 @@ export default class cardTemplate extends HTMLElement {
           categoryContainer.style.display = 'none';
           const clickedCategory = currentData.map((business) => {
             const newCard = this.#createCard(business);
-            console.log(newCard);
             
             return newCard;
           });
           businessContainer.append(...clickedCategory);
         });
-        return div;
+        cardParent.append(title,div);
+        return cardParent;
       });
       categoryContainer.append(...titles);
       return;

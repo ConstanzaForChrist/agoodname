@@ -138,8 +138,8 @@ ul {
 }
 
 .business-categories .card {
-  width: 300px;
-  height: 300px;
+  width: 370px;
+  height: 203px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
@@ -155,6 +155,10 @@ ul {
 
 .church-supporters-img {
   border-radius: 50px;
+}
+
+.business-category {
+  text-align: center;
 }
 
 /* Desktop */
@@ -229,7 +233,8 @@ ul {
   #category-container,
   #business-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
   }
 }
 

@@ -1,8 +1,8 @@
 {
   "/directory/business.html": {
     "categories": {
-      "Automobile": {
-        "img": "../assets/categories/Automobile.webp",
+      "Automotive": {
+        "img": "../assets/categories/automotive.webp",
         "businesses": [
           {
             "name": "Deloach Body Works",
@@ -14,7 +14,7 @@
         ]
       },
       "Coaching": {
-        "img": "../assets/categories/Coaching.webp",
+        "img": "../assets/categories/coaching.webp",
         "businesses": [
           {
             "name": "From Good to Great",
@@ -26,7 +26,7 @@
         ]
       },
       "Electronics": {
-        "img": "../assets/categories/Electronics.webp",
+        "img": "../assets/categories/electronics.webp",
         "businesses": [
           {
             "name": "Fouraker Electronics, Inc",
@@ -38,7 +38,7 @@
         ]
       },
       "Finance": {
-        "img": "../assets/categories/Finances.webp",
+        "img": "../assets/categories/finance.webp",
         "businesses": [
           {
             "name": "First Federal Savings of Valdosta",
@@ -64,7 +64,7 @@
         ]
       },
       "Fire Protection": {
-        "img": "../assets/categories/Fire-Protection.webp",
+        "img": "../assets/categories/fire-protection.webp",
         "businesses": [
           {
             "name": "Bennett’s Fire Protection and Systems",
@@ -76,7 +76,7 @@
         ]
       },
       "Funeral": {
-        "img": "../assets/categories/Funeral.webp",
+        "img": "../assets/categories/funeral.webp",
         "businesses": [
           {
             "name": "McLane Funeral and Cremation Services",
@@ -88,7 +88,7 @@
         ]
       },
       "Insurance": {
-        "img": "../assets/categories/Insurance.webp",
+        "img": "../assets/categories/insurance.webp",
         "businesses": [
           {
             "name": "Ben Blanton - Blanton & Griffin Insurance Agency",
@@ -114,7 +114,7 @@
         ]
       },
       "Pest Control": {
-        "img": "../assets/categories/Pest-Control.webp",
+        "img": "../assets/categories/pest-control.webp",
         "businesses": [
           {
             "name": "Adams Exterminators",
@@ -150,7 +150,7 @@
         ]
       },
       "Glass": {
-        "img": "../assets/categories/Glass.webp",
+        "img": "../assets/categories/glass.webp",
         "businesses": [
           {
             "name": "Glass Pro by American Glass (Spencer Dawkins)",
@@ -162,7 +162,7 @@
         ]
       },
       "Hospitality": {
-        "img": "../assets/categories/Hospitality.webp",
+        "img": "../assets/categories/hospitality.webp",
         "businesses": [
           {
             "name": "Williams Hotel Group",
@@ -174,7 +174,7 @@
         ]
       },
       "Mattress and Furniture": {
-        "img": "../assets/categories/Mattress.webp",
+        "img": "../assets/categories/mattress-and-furniture.webp",
         "businesses": [
           {
             "name": "Bedr Furniture (Jay Lewis)",
@@ -186,7 +186,7 @@
         ]
       },
       "Medical": {
-        "img": "../assets/categories/Medical.webp",
+        "img": "../assets/categories/medical.webp",
         "businesses": [
           {
             "name": "Maranatha Medical Plaza",
