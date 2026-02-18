@@ -1,6 +1,18 @@
 {
   "/directory/business.html": {
     "categories": {
+      "Attorney": {
+        "img": "../assets/categories/attorney.webp",
+        "businesses": [
+          {
+            "name": "John Holt, PC",
+            "address": "203 E Gordon St, Valdosta, GA 31601",
+            "number": "(229) 244-8660",
+            "website": "https://jdholtlaw.com/",
+            "image": "../assets/John-Holt.webp"
+          }
+        ]
+      },
       "Automotive": {
         "img": "../assets/categories/automotive.webp",
         "businesses": [
@@ -87,6 +99,30 @@
           }
         ]
       },
+      "Glass": {
+        "img": "../assets/categories/glass.webp",
+        "businesses": [
+          {
+            "name": "Glass Pro by American Glass (Spencer Dawkins)",
+            "address": "215 W Savannah Ave, Valdosta, GA 31601",
+            "number": "(229) 244-8484",
+            "website": "https://glassprosales.com",
+            "image": "../assets/Glass-Pro.webp"
+          }
+        ]
+      },
+      "Hospitality": {
+        "img": "../assets/categories/hospitality.webp",
+        "businesses": [
+          {
+            "name": "Williams Hotel Group",
+            "address": "1221 W 4th St, Ste 11, Adel, GA",
+            "number": "(229) 896-4511",
+            "website": "https://www.williamshotelgroup.com",
+            "image": "../assets/Williams.webp"
+          }
+        ]
+      },
       "Insurance": {
         "img": "../assets/categories/insurance.webp",
         "businesses": [
@@ -113,75 +149,22 @@
           }
         ]
       },
-      "Pest Control": {
-        "img": "../assets/categories/pest-control.webp",
-        "businesses": [
-          {
-            "name": "Adams Exterminators",
-            "address": "South Georgia",
-            "number": "(229) 382-2411",
-            "website": "https://www.adams-exterminators.com",
-            "image": "../assets/Adams-Exterminators.webp"
-          }
-        ]
-      },
-      "Movers": {
-        "img": "../assets/categories/movers.webp",
-        "businesses": [
-          {
-            "name": "Mudanza Moving",
-            "address": "",
-            "number": "229-300-7150",
-            "website": "www.mudanzamoving.com",
-            "image": "../assets/Mudanza.webp"
-          }
-        ]
-      },
-      "Attorney": {
-        "img": "../assets/categories/attorney.webp",
-        "businesses": [
-          {
-            "name": "John Holt, PC",
-            "address": "203 E Gordon St, Valdosta, GA 31601",
-            "number": "(229) 244-8660",
-            "website": "john@jdholtlaw.com",
-            "image": "../assets/John-Holt.webp"
-          }
-        ]
-      },
-      "Glass": {
-        "img": "../assets/categories/glass.webp",
-        "businesses": [
-          {
-            "name": "Glass Pro by American Glass (Spencer Dawkins)",
-            "address": "215 W Savannah Ave, Valdosta, GA 31601",
-            "number": "(229) 244-8484",
-            "website": "https://glassprosales.com",
-            "image": "../assets/Glass-Pro.webp"
-          }
-        ]
-      },
-      "Hospitality": {
-        "img": "../assets/categories/hospitality.webp",
-        "businesses": [
-          {
-            "name": "Williams Hotel Group",
-            "address": "1221 W 4th St, Ste 11, Adel, GA",
-            "number": "(229) 896-4511",
-            "website": "https://www.williamshotelgroup.com",
-            "image": "../assets/Williams.webp"
-          }
-        ]
-      },
       "Mattress and Furniture": {
         "img": "../assets/categories/mattress-and-furniture.webp",
         "businesses": [
           {
             "name": "Bedr Furniture (Jay Lewis)",
-            "address": "",
-            "number": "",
+            "address": "1604 Norman Drive Valdosta, Ga 31601",
+            "number": "(229) 671-9266",
             "website": "https://www.bedrfurnitureandmattress.com",
             "image": "../assets/Bed.webp"
+          },
+          {
+            "name": "Bedr Furniture (Jay Lewis)",
+            "address": "513 Tebeau St. Waycross, Ga 31501",
+            "number": "(912) 287-0273",
+            "website": "https://www.bedrfurnitureandmattress.com",
+            "image": "../assets/BedWaycross.webp"
           }
         ]
       },
@@ -201,6 +184,30 @@
             "number": "(229) 242-3433",
             "website": "https://www.1stamericahme.com",
             "image": "../assets/1st-America.webp"
+          }
+        ]
+      },
+      "Movers": {
+        "img": "../assets/categories/movers.webp",
+        "businesses": [
+          {
+            "name": "Mudanza Moving",
+            "address": "",
+            "number": "229-300-7150",
+            "website": "https://mudanzamoving.com",
+            "image": "../assets/Mudanza.webp"
+          }
+        ]
+      },
+      "Pest Control": {
+        "img": "../assets/categories/pest-control.webp",
+        "businesses": [
+          {
+            "name": "Adams Exterminators",
+            "address": "South Georgia",
+            "number": "(229) 382-2411",
+            "website": "https://www.adams-exterminators.com",
+            "image": "../assets/Adams-Exterminators.webp"
           }
         ]
       }

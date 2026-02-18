@@ -21,8 +21,10 @@ export default class cardTemplate extends HTMLElement {
     const website = createElement('a');
     const websiteLink = createElement('a');
     website.href = obj.website;
+    website.setAttribute('target', '_blank')
     websiteLink.textContent = `Click here to go to ${obj.name} website`;
     websiteLink.href = obj.website;
+    websiteLink.setAttribute('target', '_blank')
     title.append(website);
     parent.append(title, websiteLink, address, website);
     if (obj.image) {
