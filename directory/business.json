@@ -154,13 +154,6 @@
         "businesses": [
           {
             "name": "Bedr Furniture (Jay Lewis)",
-            "address": "1604 Norman Drive Valdosta, Ga 31601",
-            "number": "(229) 671-9266",
-            "website": "https://www.bedrfurnitureandmattress.com",
-            "image": "../assets/Bed.webp"
-          },
-          {
-            "name": "Bedr Furniture (Jay Lewis)",
             "address": "513 Tebeau St. Waycross, Ga 31501",
             "number": "(912) 287-0273",
             "website": "https://www.bedrfurnitureandmattress.com",
